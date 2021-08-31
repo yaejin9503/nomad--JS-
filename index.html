@@ -5,20 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css ">
+    <link rel="stylesheet" href="css/style.css ">
     <title>Document</title>
 </head>
 <body>
     <form id="login-form" class="hidden">
-        <input 
+        <!-- <input 
             required
             maxlength="15"
             type="text" 
             placeholder="what is yout name"/>
         <input type="submit"></button>
-        <a href="https://www.naver.com">네이버</a>
+        <a href="https://www.naver.com">네이버</a> -->
     </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <script src="app.js" defer></script>
+    <h2 id="clock">00:00</h2>
+    <div id="quotes">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/clock.js" defer></script>
+    <script src="js/quotes.js" defer"></script>
+    <!-- <script src="js/app.js" defer></script> -->
 </body>
 </html>
