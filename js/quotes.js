@@ -1,24 +1,8 @@
 const quotesArray = [ 
     { 
-        data: "dfd", 
-        writer: "f"
-    },
-    { 
-        data: "f", 
-        writer: "fdfd"
-    },
-    { 
-        data: "zf", 
-        writer: "gd"
-    },
-    { 
-        data: "dfddddd", 
-        writer: "zdf"
-    },
-    { 
-        data: "fefff", 
-        writer: "zfdf"
-    },
+        data: "어디를 가든 마음 다해 가라", 
+        writer: "공자"
+    }
 ]
 
 const quotes = document.querySelector("#quotes span:first-child"); 

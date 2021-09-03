@@ -1,3 +1,51 @@
+body{ 
+    position: relative;    
+    margin: 0;
+    padding: 0;
+    
+}
+
 .hidden{ 
     display:  none;
 } 
+
+img{ 
+    position: absolute; 
+    top: 0px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.bodyArea{ 
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    padding-top: 15%;
+}
+
+#clock{ 
+    font-size: 5em;
+    color: #fff;
+}
+
+#quotes{ 
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#quotes span{ 
+    display: block;
+}
+
+#todo-form input{ 
+    width: 280px;
+    padding: 10px;
+}
+
+#todo-form input:focus{ 
+}
+
